@@ -20,6 +20,8 @@ RadioGroup rg;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 /*
+
+
         red= red.findViewById(R.id.red);
         green= green.findViewById(R.id.green);
         blue= blue.findViewById(R.id.blue);
