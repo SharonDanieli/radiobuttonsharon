@@ -19,14 +19,13 @@ RadioGroup rg;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-/*
 
 
-        red= red.findViewById(R.id.red);
-        green= green.findViewById(R.id.green);
-        blue= blue.findViewById(R.id.blue);
-        screen= screen.findViewById(R.id.screen);
-        rg= rg.findViewById(R.id.rg);
+        red= (RadioButton) findViewById(R.id.red);
+        green= (RadioButton) findViewById(R.id.green);
+        blue= (RadioButton) findViewById(R.id.blue);
+        screen= (LinearLayout) findViewById(R.id.screen);
+        rg= (RadioGroup) findViewById(R.id.rg);
     }
     public void Changebackground (View view){
         if (red.isChecked()) {
@@ -46,7 +45,7 @@ RadioGroup rg;
     public void setBackgroundColor (View view){
         rg.clearCheck();
         screen.setBackgroundColor(Color.WHITE);
-*/
+
     }
 
 }
